@@ -24,12 +24,15 @@ Menu
             print("Min. value", np.min(arr))
         case 3:
             n = int(input("Enter number of elements in arrays:"))
-            arr1 = np.array([int(input(f"Enter element {i + 1} for first array:")) for i in range(n)])
-            arr2 = np.array([int(input(f"Enter element {i + 1} for second array:")) for i in range(n)])
+            arr1 = np.array([int(input(f"Enter element {i + 1}\
+ for first array:")) for i in range(n)])
+            arr2 = np.array([int(input(f"Enter element {i + 1}\
+ for second array:")) for i in range(n)])
             print("Dot product:", np.dot(arr1, arr2))
         case 4:
             n = int(input("Enter total number of elements:"))
-            arr = np.array([int(input(f"Enter element {i + 1}:")) for i in range(n)])
+            arr = np.array([int(input(f"Enter element {i + 1}:")) 
+            for i in range(n)])
             r = int(input("Enter number of rows:"))
             c = int(input("Enter number of columns:"))
             if r * c == n:
